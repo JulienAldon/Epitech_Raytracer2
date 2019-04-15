@@ -1,0 +1,9 @@
+#! /home/jamie/raytracer2/raytracer2
+# ordre a respecter: objet color translate rotate
+# mots interpretes: eye light sphere cone plane translate rotate transparence reflection,
+# damier, min, max
+eye -200  0.3  0
+light 40 60 200
+#  light 20 -40 100
+plane 2 damier 3 reflection 0.4 min 3 4 1
+cone 45 translate 50 1 0 rotate 20.5 234 23 color 0 200 160

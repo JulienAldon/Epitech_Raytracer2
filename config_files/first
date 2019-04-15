@@ -1,0 +1,4 @@
+eye -200 0 0
+light -20 60 0
+sphere 50 color 0 55 145
+cone 45 color 255 90 0 translate 30 2 2 rotate 0 -30 5

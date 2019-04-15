@@ -1,0 +1,10 @@
+#!raytracer2
+eye 0 0 30
+sphere 90 color 255 0 0 translate 200 0 0 reflection 0.8
+sphere 70 color 0 255 0 translate 350 250 50 reflection 0.4
+sphere 60 color 255 150 0 translate 80 -110 50 reflection 0.4
+sphere 20 color 0 0 255 translate 150 150 0 reflection 0.3
+#sphere 20 color 0 255 255 translate 0 -30 0 reflection 0.3
+#sphere 10 color 255 255 255 translate 50 -10 0 reflection 0.2
+plane 0 translate 0 0 -100 color 255 255 255 damier 50 min 600 -1 -1 reflection 0.6
+light -150 -150 150

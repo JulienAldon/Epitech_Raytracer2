@@ -1,0 +1,7 @@
+#!raytracer2
+eye -200 0 0
+light -20 60 0
+light -20 -60 0
+sphere 10 color 55 119 221 translate -20 -60 0
+sphere 40 color 55 119 221
+plane 0 color 0 255 0 translate 0 0 -40

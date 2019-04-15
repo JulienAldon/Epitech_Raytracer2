@@ -1,0 +1,10 @@
+#! /home/jamie/raytracer2/raytracer2
+# ordre a respecter: objet color translate rotate
+# mots interpretes: eye light sphere cone plane translate rotate
+eye {-200  0.3  0}
+light {40 60 200}
+#light 20 -40 100
+sphere 20
+cone 45 translate {50 1 0} rotate {20.5 234 23}
+sphere 30 color [0 200 160] translate {20 3 4}
+ #     cylinder 12
